@@ -8,3 +8,10 @@ Simple Carbon Calculator, using the CarbonCalculated API with SproutCore
 Developing with CoffeeScipt
 coffee -c -o ../electric_calculator/ --watch src/
 
+== Server
+sc-server
+
+== Want to See this Application Running
+
+http://cc-electric-bill-sc.heroku.com/ 
+
