@@ -1,0 +1,23 @@
+<h1>Carbon Calculated Electric Bill Calculator</h1>
+
+{{#view "ElectricCalculator.CreateElectricBillView"}}
+  <input id="new-electric-bill" type="text" placeholder="Enter the Kwh of your Electric Bill" >
+{{/view}}
+
+{{#collection "ElectricCalculator.ElectricBillListView"}}
+    <p>
+      Your Electric Bill Of {{content.kwh}} Kwh was calculated to be 
+      {{#if content.result}}
+        <span class="co2-result">{{content.result.co2.value}}</span> Kg CO2
+      {{/if}}
+    </p>
+{{/collection}}
+
+{{#view "ElectricCalculator.ClearBillsView"}}
+  <button>Clear Calculations</button>
+{{/view}}
+
+<h3>
+  Brought to you by 
+  <a href="http://carboncalculated.com/data_services"> CarbonCalculated Labs </a>
+</h3>

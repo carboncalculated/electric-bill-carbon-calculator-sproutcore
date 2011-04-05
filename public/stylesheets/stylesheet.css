@@ -1,0 +1,382 @@
+
+/* line 2, ././tmp/chance/Users/hookercookerman/Developer/sproutcore/electric_calculator/tmp/debug/staging/static/sproutcore/core_foundation/en/current/resources/core.css.scss */
+.sc-view {
+  font-family: "Lucida Sans", "Lucida Grande", Verdana, Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1.4;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* line 11, ././tmp/chance/Users/hookercookerman/Developer/sproutcore/electric_calculator/tmp/debug/staging/static/sproutcore/core_foundation/en/current/resources/core.css.scss */
+div.sc-view {
+  border: solid 0 black;
+}
+
+/* line 15, ././tmp/chance/Users/hookercookerman/Developer/sproutcore/electric_calculator/tmp/debug/staging/static/sproutcore/core_foundation/en/current/resources/core.css.scss */
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  -ms-text-overflow: ellipsis;
+}
+
+/* line 25, ././tmp/chance/Users/hookercookerman/Developer/sproutcore/electric_calculator/tmp/debug/staging/static/sproutcore/core_foundation/en/current/resources/core.css.scss */
+body {
+  position: absolute;
+  margin: 0px;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+/* line 59, ././tmp/chance/Users/hookercookerman/Developer/sproutcore/electric_calculator/tmp/debug/staging/static/sproutcore/core_foundation/en/current/resources/core.css.scss */
+.sc-view body,
+.sc-view div,
+.sc-view dl,
+.sc-view dt,
+.sc-view dd,
+.sc-view ul,
+.sc-view ol,
+.sc-view li,
+.sc-view h1,
+.sc-view h2,
+.sc-view h3,
+.sc-view h4,
+.sc-view h5,
+.sc-view h6,
+.sc-view pre,
+.sc-view code,
+.sc-view form,
+.sc-view fieldset,
+.sc-view legend,
+.sc-view input,
+.sc-view button,
+.sc-view textarea,
+.sc-view p,
+.sc-view blockquote,
+.sc-view th,
+.sc-view td {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 64, ././tmp/chance/Users/hookercookerman/Developer/sproutcore/electric_calculator/tmp/debug/staging/static/sproutcore/core_foundation/en/current/resources/core.css.scss */
+.sc-view table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 70, ././tmp/chance/Users/hookercookerman/Developer/sproutcore/electric_calculator/tmp/debug/staging/static/sproutcore/core_foundation/en/current/resources/core.css.scss */
+.sc-view fieldset,
+.sc-view img {
+  border: 0;
+}
+
+/* line 83, ././tmp/chance/Users/hookercookerman/Developer/sproutcore/electric_calculator/tmp/debug/staging/static/sproutcore/core_foundation/en/current/resources/core.css.scss */
+.sc-view address,
+.sc-view caption,
+.sc-view cite,
+.sc-view code,
+.sc-view dfn,
+.sc-view em,
+.sc-view strong,
+.sc-view th,
+.sc-view var,
+.sc-view optgroup {
+  font-style: inherit;
+  font-weight: inherit;
+}
+
+/* line 89, ././tmp/chance/Users/hookercookerman/Developer/sproutcore/electric_calculator/tmp/debug/staging/static/sproutcore/core_foundation/en/current/resources/core.css.scss */
+.sc-view del,
+.sc-view ins {
+  text-decoration: none;
+}
+
+/* line 93, ././tmp/chance/Users/hookercookerman/Developer/sproutcore/electric_calculator/tmp/debug/staging/static/sproutcore/core_foundation/en/current/resources/core.css.scss */
+.sc-view li {
+  list-style: none;
+}
+
+/* line 98, ././tmp/chance/Users/hookercookerman/Developer/sproutcore/electric_calculator/tmp/debug/staging/static/sproutcore/core_foundation/en/current/resources/core.css.scss */
+.sc-view caption,
+.sc-view th {
+  text-align: left;
+}
+
+/* line 107, ././tmp/chance/Users/hookercookerman/Developer/sproutcore/electric_calculator/tmp/debug/staging/static/sproutcore/core_foundation/en/current/resources/core.css.scss */
+.sc-view h1,
+.sc-view h2,
+.sc-view h3,
+.sc-view h4,
+.sc-view h5,
+.sc-view h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+/* line 113, ././tmp/chance/Users/hookercookerman/Developer/sproutcore/electric_calculator/tmp/debug/staging/static/sproutcore/core_foundation/en/current/resources/core.css.scss */
+.sc-view q:before,
+.sc-view q:after {
+  content: '';
+}
+
+/* line 118, ././tmp/chance/Users/hookercookerman/Developer/sproutcore/electric_calculator/tmp/debug/staging/static/sproutcore/core_foundation/en/current/resources/core.css.scss */
+.sc-view abbr,
+.sc-view acronym {
+  border: 0;
+  font-variant: normal;
+}
+
+/* line 123, ././tmp/chance/Users/hookercookerman/Developer/sproutcore/electric_calculator/tmp/debug/staging/static/sproutcore/core_foundation/en/current/resources/core.css.scss */
+.sc-view sup {
+  vertical-align: baseline;
+}
+
+/* line 127, ././tmp/chance/Users/hookercookerman/Developer/sproutcore/electric_calculator/tmp/debug/staging/static/sproutcore/core_foundation/en/current/resources/core.css.scss */
+.sc-view sub {
+  vertical-align: baseline;
+}
+
+/* line 132, ././tmp/chance/Users/hookercookerman/Developer/sproutcore/electric_calculator/tmp/debug/staging/static/sproutcore/core_foundation/en/current/resources/core.css.scss */
+.sc-view legend {
+  color: #000;
+}
+
+/* line 141, ././tmp/chance/Users/hookercookerman/Developer/sproutcore/electric_calculator/tmp/debug/staging/static/sproutcore/core_foundation/en/current/resources/core.css.scss */
+.sc-view input,
+.sc-view button,
+.sc-view textarea,
+.sc-view select,
+.sc-view optgroup,
+.sc-view option {
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+}
+
+/* line 153, ././tmp/chance/Users/hookercookerman/Developer/sproutcore/electric_calculator/tmp/debug/staging/static/sproutcore/core_foundation/en/current/resources/core.css.scss */
+.sc-view input,
+.sc-view button,
+.sc-view textarea,
+.sc-view select {
+  font-size: 100%;
+}
+
+/* line 169, ././tmp/chance/Users/hookercookerman/Developer/sproutcore/electric_calculator/tmp/debug/staging/static/sproutcore/core_foundation/en/current/resources/core.css.scss */
+.sc-view body {
+  font: 13px/1.231 "Lucida Sans", "Lucida Grande", Verdana, Arial, sans-serif;
+  /* for IE6/7 */
+  *font-size: small;
+  /* for IE Quirks Mode */
+  *font: x-small;
+}
+
+/* line 181, ././tmp/chance/Users/hookercookerman/Developer/sproutcore/electric_calculator/tmp/debug/staging/static/sproutcore/core_foundation/en/current/resources/core.css.scss */
+.sc-view select,
+.sc-view input,
+.sc-view textarea,
+.sc-view button {
+  font: 99% "Lucida Sans", "Lucida Grande", Verdana, Arial, sans-serif;
+}
+
+/* line 186, ././tmp/chance/Users/hookercookerman/Developer/sproutcore/electric_calculator/tmp/debug/staging/static/sproutcore/core_foundation/en/current/resources/core.css.scss */
+.sc-view table {
+  font-size: inherit;
+  font: 100%;
+}
+
+/* line 196, ././tmp/chance/Users/hookercookerman/Developer/sproutcore/electric_calculator/tmp/debug/staging/static/sproutcore/core_foundation/en/current/resources/core.css.scss */
+.sc-view pre,
+.sc-view code,
+.sc-view kbd,
+.sc-view samp,
+.sc-view tt {
+  font-family: monospace;
+  *font-size: 108%;
+  line-height: 100%;
+}
+
+/* line 210, ././tmp/chance/Users/hookercookerman/Developer/sproutcore/electric_calculator/tmp/debug/staging/static/sproutcore/core_foundation/en/current/resources/core.css.scss */
+.sc-view body {
+  margin: 10px;
+}
+
+/* line 215, ././tmp/chance/Users/hookercookerman/Developer/sproutcore/electric_calculator/tmp/debug/staging/static/sproutcore/core_foundation/en/current/resources/core.css.scss */
+.sc-view h1 {
+  font-size: 138.5%;
+}
+
+/* line 220, ././tmp/chance/Users/hookercookerman/Developer/sproutcore/electric_calculator/tmp/debug/staging/static/sproutcore/core_foundation/en/current/resources/core.css.scss */
+.sc-view h2 {
+  font-size: 123.1%;
+}
+
+/* line 225, ././tmp/chance/Users/hookercookerman/Developer/sproutcore/electric_calculator/tmp/debug/staging/static/sproutcore/core_foundation/en/current/resources/core.css.scss */
+.sc-view h3 {
+  font-size: 108%;
+}
+
+/* line 232, ././tmp/chance/Users/hookercookerman/Developer/sproutcore/electric_calculator/tmp/debug/staging/static/sproutcore/core_foundation/en/current/resources/core.css.scss */
+.sc-view h1,
+.sc-view h2,
+.sc-view h3 {
+  margin: 0em 0;
+}
+
+/* line 244, ././tmp/chance/Users/hookercookerman/Developer/sproutcore/electric_calculator/tmp/debug/staging/static/sproutcore/core_foundation/en/current/resources/core.css.scss */
+.sc-view h1,
+.sc-view h2,
+.sc-view h3,
+.sc-view h4,
+.sc-view h5,
+.sc-view h6,
+.sc-view strong,
+.sc-view dt {
+  font-weight: bold;
+}
+
+/* line 248, ././tmp/chance/Users/hookercookerman/Developer/sproutcore/electric_calculator/tmp/debug/staging/static/sproutcore/core_foundation/en/current/resources/core.css.scss */
+.sc-view optgroup {
+  font-weight: normal;
+}
+
+/* line 253, ././tmp/chance/Users/hookercookerman/Developer/sproutcore/electric_calculator/tmp/debug/staging/static/sproutcore/core_foundation/en/current/resources/core.css.scss */
+.sc-view abbr,
+.sc-view acronym {
+  border-bottom: 1px dotted #000;
+  cursor: help;
+}
+
+/* line 259, ././tmp/chance/Users/hookercookerman/Developer/sproutcore/electric_calculator/tmp/debug/staging/static/sproutcore/core_foundation/en/current/resources/core.css.scss */
+.sc-view em {
+  font-style: italic;
+}
+
+/* line 264, ././tmp/chance/Users/hookercookerman/Developer/sproutcore/electric_calculator/tmp/debug/staging/static/sproutcore/core_foundation/en/current/resources/core.css.scss */
+.sc-view del {
+  text-decoration: line-through;
+}
+
+/* line 272, ././tmp/chance/Users/hookercookerman/Developer/sproutcore/electric_calculator/tmp/debug/staging/static/sproutcore/core_foundation/en/current/resources/core.css.scss */
+.sc-view blockquote,
+.sc-view ul,
+.sc-view ol,
+.sc-view dl {
+  margin: 1em;
+}
+
+/* line 279, ././tmp/chance/Users/hookercookerman/Developer/sproutcore/electric_calculator/tmp/debug/staging/static/sproutcore/core_foundation/en/current/resources/core.css.scss */
+.sc-view ol,
+.sc-view ul,
+.sc-view dl {
+  margin-left: 2em;
+}
+
+/* line 285, ././tmp/chance/Users/hookercookerman/Developer/sproutcore/electric_calculator/tmp/debug/staging/static/sproutcore/core_foundation/en/current/resources/core.css.scss */
+.sc-view th,
+.sc-view td {
+  border: 1px solid #000;
+  padding: .5em;
+}
+
+/* line 291, ././tmp/chance/Users/hookercookerman/Developer/sproutcore/electric_calculator/tmp/debug/staging/static/sproutcore/core_foundation/en/current/resources/core.css.scss */
+.sc-view th {
+  font-weight: bold;
+  text-align: center;
+}
+
+/* line 297, ././tmp/chance/Users/hookercookerman/Developer/sproutcore/electric_calculator/tmp/debug/staging/static/sproutcore/core_foundation/en/current/resources/core.css.scss */
+.sc-view caption {
+  margin-bottom: .5em;
+  /* Centered so it doesn't blend in to other content. */
+  text-align: center;
+}
+
+/* line 304, ././tmp/chance/Users/hookercookerman/Developer/sproutcore/electric_calculator/tmp/debug/staging/static/sproutcore/core_foundation/en/current/resources/core.css.scss */
+.sc-view sup {
+  vertical-align: super;
+}
+
+/* line 309, ././tmp/chance/Users/hookercookerman/Developer/sproutcore/electric_calculator/tmp/debug/staging/static/sproutcore/core_foundation/en/current/resources/core.css.scss */
+.sc-view sub {
+  vertical-align: sub;
+}
+
+/* line 317, ././tmp/chance/Users/hookercookerman/Developer/sproutcore/electric_calculator/tmp/debug/staging/static/sproutcore/core_foundation/en/current/resources/core.css.scss */
+.sc-view p,
+.sc-view fieldset,
+.sc-view table,
+.sc-view pre {
+  margin-bottom: 1em;
+}
+
+/* line 326, ././tmp/chance/Users/hookercookerman/Developer/sproutcore/electric_calculator/tmp/debug/staging/static/sproutcore/core_foundation/en/current/resources/core.css.scss */
+.sc-view button,
+.sc-view input[type="checkbox"],
+.sc-view input[type="radio"],
+.sc-view input[type="reset"],
+.sc-view input[type="submit"] {
+  padding: 1px;
+}
+
+           /*
+  These CSS styles apply to all views.
+*/
+/* default behaviors for all views: 
+ - use "pointer" cursor unless otherwise required 
+ - clip overflow
+*/
+/* line 10, ././tmp/chance/Users/hookercookerman/Developer/sproutcore/electric_calculator/tmp/debug/staging/static/sproutcore/core_foundation/en/current/resources/view.css.scss */
+.sc-view {
+  cursor: default;
+  overflow: hidden;
+  position: absolute;
+  /* all views are absolutely positioned. */
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  user-select: none;
+  margin: 0px;
+}
+
+/* line 21, ././tmp/chance/Users/hookercookerman/Developer/sproutcore/electric_calculator/tmp/debug/staging/static/sproutcore/core_foundation/en/current/resources/view.css.scss */
+.sc-view.allow-select {
+  -moz-user-select: text;
+  -khtml-user-select: text;
+  user-select: text;
+  cursor: text;
+}
+
+/* line 30, ././tmp/chance/Users/hookercookerman/Developer/sproutcore/electric_calculator/tmp/debug/staging/static/sproutcore/core_foundation/en/current/resources/view.css.scss */
+.sc-view:focus, a.sc-view:focus,
+.sc-view:active, a.sc-view:active {
+  outline: none;
+}
+
+/* line 35, ././tmp/chance/Users/hookercookerman/Developer/sproutcore/electric_calculator/tmp/debug/staging/static/sproutcore/core_foundation/en/current/resources/view.css.scss */
+.sc-view img {
+  border: none;
+}
+
+/* line 39, ././tmp/chance/Users/hookercookerman/Developer/sproutcore/electric_calculator/tmp/debug/staging/static/sproutcore/core_foundation/en/current/resources/view.css.scss */
+.sc-hidden {
+  display: none !important;
+}
+
+/* line 45, ././tmp/chance/Users/hookercookerman/Developer/sproutcore/electric_calculator/tmp/debug/staging/static/sproutcore/core_foundation/en/current/resources/view.css.scss */
+.sc-view.text-align-right,
+.sc-view.textAlignRight {
+  text-align: right;
+}
+
+/* line 50, ././tmp/chance/Users/hookercookerman/Developer/sproutcore/electric_calculator/tmp/debug/staging/static/sproutcore/core_foundation/en/current/resources/view.css.scss */
+.mobile-safari .sc-pane {
+  -webkit-transform: translate3d(0, 0, 0);
+}
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline}body{line-height:1;color:black;background:white}ol,ul{list-style:none}table{border-collapse:separate;border-spacing:0;vertical-align:middle}caption,th,td{text-align:left;font-weight:normal;vertical-align:middle}q,blockquote{quotes:"" ""}q:before,q:after,blockquote:before,blockquote:after{content:""}a img{border:none}.fancy-button-reset-base-class,#electric_calculator button{font-family:"Lucida Grande", Lucida, Arial, sans-serif;background:url('/button_bg.png') repeat-x bottom left;margin:0;width:auto;overflow:visible;display:inline-block;cursor:pointer;text-decoration:none;border-style:solid;font-weight:bold}.fancy-button-reset-base-class::-moz-focus-inner,#electric_calculator button::-moz-focus-inner{border:none;padding:0}.fancy-button-reset-base-class:focus,#electric_calculator button:focus{outline:none}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}body,html{color:#777;background-color:#F2F4F5}.sc-view{position:relative;overflow:visible}#electric_calculator{-moz-box-shadow:rgba(0, 0, 0, 0.6) 0 0 1px 0;-webkit-box-shadow:rgba(0, 0, 0, 0.6) 0 0 1px 0;-o-box-shadow:rgba(0, 0, 0, 0.6) 0 0 1px 0;box-shadow:rgba(0, 0, 0, 0.6) 0 0 1px 0;-moz-border-radius:8px;-webkit-border-radius:8px;-o-border-radius:8px;-ms-border-radius:8px;-khtml-border-radius:8px;border-radius:8px;position:relative;width:600px;left:50%;margin-top:38px;border:1px solid #bbbbbb;margin-left:-300px;background-color:#fff;padding:40px 10px 10px}#electric_calculator a{color:#87AD1F}#electric_calculator input[type='text']{-moz-border-radius:5px;-webkit-border-radius:5px;-o-border-radius:5px;-ms-border-radius:5px;-khtml-border-radius:5px;border-radius:5px;-moz-box-shadow:rgba(0, 0, 0, 0.6) 0 0 10px -2px;-webkit-box-shadow:rgba(0, 0, 0, 0.6) 0 0 10px -2px;-o-box-shadow:rgba(0, 0, 0, 0.6) 0 0 10px -2px;box-shadow:rgba(0, 0, 0, 0.6) 0 0 10px -2px;color:#999;background-color:#f0f0f0;width:588px;font-size:30px;font-family:Helvetica, sans-serif;padding:5px;border:1px solid #bbbbbb;font-weight:500}#electric_calculator input[type='text']::-webkit-input-placeholder{color:#aaa}#electric_calculator li{-moz-box-shadow:rgba(0, 0, 0, 0.6) 0 0 1px 0;-webkit-box-shadow:rgba(0, 0, 0, 0.6) 0 0 1px 0;-o-box-shadow:rgba(0, 0, 0, 0.6) 0 0 1px 0;box-shadow:rgba(0, 0, 0, 0.6) 0 0 1px 0;-moz-border-radius:8px;-webkit-border-radius:8px;-o-border-radius:8px;-ms-border-radius:8px;-khtml-border-radius:8px;border-radius:8px;width:100%;height:30px;padding:5px}#electric_calculator li p{margin:10px}#electric_calculator li .co2-result{font-weight:bold}#electric_calculator button{-moz-border-radius:6px;-webkit-border-radius:6px;-o-border-radius:6px;-ms-border-radius:6px;-khtml-border-radius:6px;border-radius:6px;font-size:18px;line-height:1.2em;padding:0.3em 1em;border-width:1px;background-color:white;background-image:-webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #ffffff), color-stop(10%, #ffffff), color-stop(50%, #d6d6d6), color-stop(50%, #cfcfcf), color-stop(100%, #e8e8e8));background-image:-moz-linear-gradient(top, #ffffff 0%, #ffffff 10%, #d6d6d6 50%, #cfcfcf 50%, #e8e8e8 100%);background-image:linear-gradient(top, #ffffff 0%, #ffffff 10%, #d6d6d6 50%, #cfcfcf 50%, #e8e8e8 100%);border-color:#b8b8b8;text-shadow:white 0px 1px 1px;-moz-box-shadow:rgba(255, 255, 255, 0.871) 0 0 0.1em 1px inset;-webkit-box-shadow:rgba(255, 255, 255, 0.871) 0 0 0.1em 1px inset;-o-box-shadow:rgba(255, 255, 255, 0.871) 0 0 0.1em 1px inset;box-shadow:rgba(255, 255, 255, 0.871) 0 0 0.1em 1px inset;-moz-background-clip:padding;-webkit-background-clip:padding;-o-background-clip:padding-box;-ms-background-clip:padding-box;-khtml-background-clip:padding-box;background-clip:padding-box;margin:20px 0px}#electric_calculator button,#electric_calculator button:visited{color:#222222}#electric_calculator button:hover,#electric_calculator button:focus{background-color:white;background-image:-webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #ffffff), color-stop(10%, #fdfdfd), color-stop(50%, #cfcfcf), color-stop(50%, #c7c7c7), color-stop(100%, #e1e1e1));background-image:-moz-linear-gradient(top, #ffffff 0%, #fdfdfd 10%, #cfcfcf 50%, #c7c7c7 50%, #e1e1e1 100%);background-image:linear-gradient(top, #ffffff 0%, #fdfdfd 10%, #cfcfcf 50%, #c7c7c7 50%, #e1e1e1 100%);border-color:#b0b0b0;text-shadow:white 0px 1px 1px}#electric_calculator button:hover,#electric_calculator button:hover:visited,#electric_calculator button:focus,#electric_calculator button:focus:visited{color:#222222}#electric_calculator button:active{background-color:white;background-image:-webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #cfcfcf), color-stop(30%, #d4d4d4), color-stop(50%, #cacaca), color-stop(50%, #c2c2c2), color-stop(100%, #e3e3e3));background-image:-moz-linear-gradient(top, #cfcfcf 0%, #d4d4d4 30%, #cacaca 50%, #c2c2c2 50%, #e3e3e3 100%);background-image:linear-gradient(top, #cfcfcf 0%, #d4d4d4 30%, #cacaca 50%, #c2c2c2 50%, #e3e3e3 100%);border-color:#a8a8a8;text-shadow:white 0px -1px -1px;-moz-box-shadow:#b8b8b8 0 0.08em 0.1em 1px inset;-webkit-box-shadow:#b8b8b8 0 0.08em 0.1em 1px inset;-o-box-shadow:#b8b8b8 0 0.08em 0.1em 1px inset;box-shadow:#b8b8b8 0 0.08em 0.1em 1px inset}#electric_calculator button:active,#electric_calculator button:active:visited{color:#222222}#electric_calculator h1{-moz-border-radius-topleft:8px;-webkit-border-top-left-radius:8px;-o-border-top-left-radius:8px;-ms-border-top-left-radius:8px;-khtml-border-top-left-radius:8px;border-top-left-radius:8px;-moz-border-radius-topright:8px;-webkit-border-top-right-radius:8px;-o-border-top-right-radius:8px;-ms-border-top-right-radius:8px;-khtml-border-top-right-radius:8px;border-top-right-radius:8px;background-image:-webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #ffffff), color-stop(49%, #f4f4f4), color-stop(51%, #ededed), color-stop(100%, #dedede));background-image:-moz-linear-gradient(top, #ffffff 0%, #f4f4f4 49%, #ededed 51%, #dedede 100%);background-image:linear-gradient(top, #ffffff 0%, #f4f4f4 49%, #ededed 51%, #dedede 100%);text-shadow:white 0 1px 1px;font-size:15px;position:absolute;width:600px;height:20px;color:#53565e;top:0;left:0;padding:5px 10px;border-bottom:1px solid #bbbbbb}#electric_calculator h3{position:absolute;bottom:0px}#electric_calculator label{font-size:15px}#electric_calculator label input{margin-top:6px;margin-right:5px;float:left}#electric_calculator label.done-label{margin-left:6px;display:block;margin-top:10px;font-weight:bold}#electric_calculator input[type=checkbox]{float:left;margin-top:5px;margin-right:7px}#electric_calculator ul{margin-left:6px}#electric_calculator ul li{margin-bottom:10px}#electric_calculator ul li.is-done{text-decoration:line-through}
+

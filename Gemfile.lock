@@ -1,0 +1,67 @@
+GIT
+  remote: git://github.com/sproutcore/abbot.git
+  revision: 772e1f04afd2625cd7fe9925968acb9a078424e1
+  specs:
+    sproutcore (1.5.0.rc.1)
+      chunky_png (~> 1.1.0)
+      compass (~> 0.10.5)
+      erubis (~> 2.6.6)
+      eventmachine (>= 0.12.10)
+      extlib (~> 0.9.15)
+      haml (~> 3.0.24)
+      json_pure (~> 1.4.6)
+      rack (~> 1.2.1)
+      thin (= 1.2.8)
+      thor (~> 0.14.3)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    abstract (1.0.0)
+    activesupport (3.0.5)
+    calculated (0.1.6)
+      activesupport (>= 3.0.0)
+      hashie (~> 0.2.1)
+      httparty (~> 0.6.1)
+      i18n (>= 0.5)
+      moneta (~> 0.6.0)
+      tzinfo (~> 0.3.22)
+    chunky_png (1.1.0)
+    compass (0.10.6)
+      haml (>= 3.0.4)
+    crack (0.1.8)
+    daemons (1.1.2)
+    erubis (2.6.6)
+      abstract (>= 1.0.0)
+    eventmachine (0.12.10)
+    extlib (0.9.15)
+    fancy-buttons (1.0.6)
+      compass (= 0.10.6)
+    haml (3.0.25)
+    hashie (0.2.2)
+    httparty (0.6.1)
+      crack (= 0.1.8)
+    i18n (0.5.0)
+    json_pure (1.4.6)
+    moneta (0.6.0)
+    rack (1.2.2)
+    sinatra (1.1.0)
+      rack (~> 1.1)
+      tilt (~> 1.1)
+    thin (1.2.8)
+      daemons (>= 1.0.9)
+      eventmachine (>= 0.12.6)
+      rack (>= 1.0.0)
+    thor (0.14.6)
+    tilt (1.1)
+    tzinfo (0.3.26)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  calculated
+  fancy-buttons
+  rack
+  sinatra
+  sproutcore!

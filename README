@@ -1,0 +1,10 @@
+=============================================================================
+Project:   ElectricCalculator
+Copyright: ©2011 CarbonCalculated
+=============================================================================
+
+Simple Carbon Calculator, using the CarbonCalculated API with SproutCore
+
+Developing with CoffeeScipt
+coffee -c -o ../electric_calculator/ --watch src/
+
